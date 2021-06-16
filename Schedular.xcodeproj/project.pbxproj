@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFC15E30266254AA00D11105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15E2F266254AA00D11105 /* AppDelegate.swift */; };
+		EFC15E32266254AA00D11105 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15E31266254AA00D11105 /* SceneDelegate.swift */; };
+		EFC15E34266254AA00D11105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15E33266254AA00D11105 /* ViewController.swift */; };
+		EFC15E37266254AA00D11105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC15E35266254AA00D11105 /* Main.storyboard */; };
+		EFC15E39266254AD00D11105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC15E38266254AD00D11105 /* Assets.xcassets */; };
+		EFC15E3C266254AD00D11105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC15E3A266254AD00D11105 /* LaunchScreen.storyboard */; };
+		EFC15E47266254AE00D11105 /* SchedularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15E46266254AE00D11105 /* SchedularTests.swift */; };
+		EFC15E52266254AE00D11105 /* SchedularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15E51266254AE00D11105 /* SchedularUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFC15E43266254AE00D11105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC15E24266254AA00D11105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC15E2B266254AA00D11105;
+			remoteInfo = Schedular;
+		};
+		EFC15E4E266254AE00D11105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC15E24266254AA00D11105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC15E2B266254AA00D11105;
+			remoteInfo = Schedular;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFC15E2C266254AA00D11105 /* Schedular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC15E2F266254AA00D11105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFC15E31266254AA00D11105 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFC15E33266254AA00D11105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFC15E36266254AA00D11105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFC15E38266254AD00D11105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC15E3B266254AD00D11105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC15E3D266254AD00D11105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC15E42266254AE00D11105 /* SchedularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC15E46266254AE00D11105 /* SchedularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedularTests.swift; sourceTree = "<group>"; };
+		EFC15E48266254AE00D11105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC15E4D266254AE00D11105 /* SchedularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC15E51266254AE00D11105 /* SchedularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedularUITests.swift; sourceTree = "<group>"; };
+		EFC15E53266254AE00D11105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC15E29266254AA00D11105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC15E3F266254AE00D11105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC15E4A266254AE00D11105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC15E23266254AA00D11105 = {
+			isa = PBXGroup;
+			children = (
+				EFC15E2E266254AA00D11105 /* Schedular */,
+				EFC15E45266254AE00D11105 /* SchedularTests */,
+				EFC15E50266254AE00D11105 /* SchedularUITests */,
+				EFC15E2D266254AA00D11105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC15E2D266254AA00D11105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC15E2C266254AA00D11105 /* Schedular.app */,
+				EFC15E42266254AE00D11105 /* SchedularTests.xctest */,
+				EFC15E4D266254AE00D11105 /* SchedularUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC15E2E266254AA00D11105 /* Schedular */ = {
+			isa = PBXGroup;
+			children = (
+				EFC15E2F266254AA00D11105 /* AppDelegate.swift */,
+				EFC15E31266254AA00D11105 /* SceneDelegate.swift */,
+				EFC15E33266254AA00D11105 /* ViewController.swift */,
+				EFC15E35266254AA00D11105 /* Main.storyboard */,
+				EFC15E38266254AD00D11105 /* Assets.xcassets */,
+				EFC15E3A266254AD00D11105 /* LaunchScreen.storyboard */,
+				EFC15E3D266254AD00D11105 /* Info.plist */,
+			);
+			path = Schedular;
+			sourceTree = "<group>";
+		};
+		EFC15E45266254AE00D11105 /* SchedularTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC15E46266254AE00D11105 /* SchedularTests.swift */,
+				EFC15E48266254AE00D11105 /* Info.plist */,
+			);
+			path = SchedularTests;
+			sourceTree = "<group>";
+		};
+		EFC15E50266254AE00D11105 /* SchedularUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFC15E51266254AE00D11105 /* SchedularUITests.swift */,
+				EFC15E53266254AE00D11105 /* Info.plist */,
+			);
+			path = SchedularUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC15E2B266254AA00D11105 /* Schedular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC15E56266254AE00D11105 /* Build configuration list for PBXNativeTarget "Schedular" */;
+			buildPhases = (
+				EFC15E28266254AA00D11105 /* Sources */,
+				EFC15E29266254AA00D11105 /* Frameworks */,
+				EFC15E2A266254AA00D11105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schedular;
+			productName = Schedular;
+			productReference = EFC15E2C266254AA00D11105 /* Schedular.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC15E41266254AE00D11105 /* SchedularTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC15E59266254AE00D11105 /* Build configuration list for PBXNativeTarget "SchedularTests" */;
+			buildPhases = (
+				EFC15E3E266254AE00D11105 /* Sources */,
+				EFC15E3F266254AE00D11105 /* Frameworks */,
+				EFC15E40266254AE00D11105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC15E44266254AE00D11105 /* PBXTargetDependency */,
+			);
+			name = SchedularTests;
+			productName = SchedularTests;
+			productReference = EFC15E42266254AE00D11105 /* SchedularTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFC15E4C266254AE00D11105 /* SchedularUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC15E5C266254AE00D11105 /* Build configuration list for PBXNativeTarget "SchedularUITests" */;
+			buildPhases = (
+				EFC15E49266254AE00D11105 /* Sources */,
+				EFC15E4A266254AE00D11105 /* Frameworks */,
+				EFC15E4B266254AE00D11105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC15E4F266254AE00D11105 /* PBXTargetDependency */,
+			);
+			name = SchedularUITests;
+			productName = SchedularUITests;
+			productReference = EFC15E4D266254AE00D11105 /* SchedularUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC15E24266254AA00D11105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Local User";
+				TargetAttributes = {
+					EFC15E2B266254AA00D11105 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EFC15E41266254AE00D11105 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EFC15E2B266254AA00D11105;
+					};
+					EFC15E4C266254AE00D11105 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EFC15E2B266254AA00D11105;
+					};
+				};
+			};
+			buildConfigurationList = EFC15E27266254AA00D11105 /* Build configuration list for PBXProject "Schedular" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC15E23266254AA00D11105;
+			productRefGroup = EFC15E2D266254AA00D11105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC15E2B266254AA00D11105 /* Schedular */,
+				EFC15E41266254AE00D11105 /* SchedularTests */,
+				EFC15E4C266254AE00D11105 /* SchedularUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC15E2A266254AA00D11105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC15E3C266254AD00D11105 /* LaunchScreen.storyboard in Resources */,
+				EFC15E39266254AD00D11105 /* Assets.xcassets in Resources */,
+				EFC15E37266254AA00D11105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC15E40266254AE00D11105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC15E4B266254AE00D11105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC15E28266254AA00D11105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC15E34266254AA00D11105 /* ViewController.swift in Sources */,
+				EFC15E30266254AA00D11105 /* AppDelegate.swift in Sources */,
+				EFC15E32266254AA00D11105 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC15E3E266254AE00D11105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC15E47266254AE00D11105 /* SchedularTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC15E49266254AE00D11105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC15E52266254AE00D11105 /* SchedularUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC15E44266254AE00D11105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC15E2B266254AA00D11105 /* Schedular */;
+			targetProxy = EFC15E43266254AE00D11105 /* PBXContainerItemProxy */;
+		};
+		EFC15E4F266254AE00D11105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC15E2B266254AA00D11105 /* Schedular */;
+			targetProxy = EFC15E4E266254AE00D11105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFC15E35266254AA00D11105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC15E36266254AA00D11105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFC15E3A266254AD00D11105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC15E3B266254AD00D11105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC15E54266254AE00D11105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFC15E55266254AE00D11105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC15E57266254AE00D11105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Schedular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.Schedular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC15E58266254AE00D11105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Schedular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.Schedular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFC15E5A266254AE00D11105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchedularTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SchedularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedular.app/Schedular";
+			};
+			name = Debug;
+		};
+		EFC15E5B266254AE00D11105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchedularTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SchedularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedular.app/Schedular";
+			};
+			name = Release;
+		};
+		EFC15E5D266254AE00D11105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchedularUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SchedularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schedular;
+			};
+			name = Debug;
+		};
+		EFC15E5E266254AE00D11105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchedularUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SchedularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schedular;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC15E27266254AA00D11105 /* Build configuration list for PBXProject "Schedular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC15E54266254AE00D11105 /* Debug */,
+				EFC15E55266254AE00D11105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC15E56266254AE00D11105 /* Build configuration list for PBXNativeTarget "Schedular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC15E57266254AE00D11105 /* Debug */,
+				EFC15E58266254AE00D11105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC15E59266254AE00D11105 /* Build configuration list for PBXNativeTarget "SchedularTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC15E5A266254AE00D11105 /* Debug */,
+				EFC15E5B266254AE00D11105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC15E5C266254AE00D11105 /* Build configuration list for PBXNativeTarget "SchedularUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC15E5D266254AE00D11105 /* Debug */,
+				EFC15E5E266254AE00D11105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC15E24266254AA00D11105 /* Project object */;
+}
